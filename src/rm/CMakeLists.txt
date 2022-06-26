@@ -4,4 +4,4 @@ add_library(redbaserm STATIC
 
 
 add_executable(test_rm_bitmap rm_bitmap_test.cc)
-target_link_libraries(test_rm_bitmap redbaserm)
+target_link_libraries(test_rm_bitmap gtest_main redbaserm)

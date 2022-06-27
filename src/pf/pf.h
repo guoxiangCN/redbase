@@ -7,7 +7,15 @@
 #include "redbase.h"
 #include "rm/rm_rid.h"
 
+// The number of bytes available for data storage on each page
+static constexpr int PF_PAGE_SIZE = 4092
+
+// The number of pages in the buffer pool
+static constexpr int PF_BUFFER_SIZE = 40
+
+// Forward declars
 class PF_FileHandle;
+class PF_PageHandle;
 
 class PF_Manager {
 public:

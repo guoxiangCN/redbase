@@ -13,5 +13,6 @@ include_directories(${PROJECT_SOURCE_DIR}/deps/googletest/googletest/include/)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/rm)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/pf)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/ql)
 add_subdirectory(${PROJECT_SOURCE_DIR}/src/bin)
 add_subdirectory(${PROJECT_SOURCE_DIR}/deps/googletest)
